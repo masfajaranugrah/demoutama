@@ -28,7 +28,7 @@ export default function Projects() {
                
               />
                <div  className="flex justify-center items-center my-10" >
-             <a className="px-10" href="https://demo2-nu-seven.vercel.app/" target="_blank"><FullButton title="Live Demo"  /></a> 
+             <a className="px-10" href="https://demo2-peach-alpha.vercel.app/" target="_blank"><FullButton title="Live Demo"  /></a> 
              
           </div> 
             </div>  
