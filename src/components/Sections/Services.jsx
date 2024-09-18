@@ -21,7 +21,7 @@ export default function Services() {
               lompatkelas.com akan memfasilitasi  anda untuk brand baru anda
             </p>
           </HeaderInfo>
-          <ServiceBoxRow className="flex">
+          <ServiceBoxRow className="grid grid-cols-3">
             <ServiceBoxWrapper>
               <ServiceBox
                 icon="roller"
@@ -63,7 +63,7 @@ const ServiceBoxRow = styled.div`
   }
 `;
 const ServiceBoxWrapper = styled.div`
-  width: 20%;
+  
   margin-right: 5%;
   padding: 80px 0;
   @media (max-width: 860px) {

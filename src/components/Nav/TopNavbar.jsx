@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import styled from "styled-components";
-import { Link } from "react-scroll";
+import { Link } from "react-router-dom";
 // Components
 import Sidebar from "../Nav/Sidebar";
 import Backdrop from "../Elements/Backdrop";
@@ -48,7 +48,7 @@ export default function TopNavbar() {
               </Link>
             </li>
             <li className="semiBold font15 pointer">
-              <Link activeClass="active" style={{ padding: "10px 15px" }} to="demo" spy={true} smooth={true} offset={-80}>
+              <Link activeClass="active" style={{ padding: "10px 15px" }} to="/demo" spy={true} smooth={true} offset={-80}>
                 Demo
               </Link>
             </li>

@@ -9,6 +9,7 @@ const Home = () => {
         <Route path="/" element={<Landing />} />
         <Route path="/home" element={<Navigate to="/" />} />
         <Route path="/services" element={<Landing />} />
+        <Route path="/demo" element={<Landing />} />
         
       </Routes>
     </Router>

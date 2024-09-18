@@ -30,9 +30,9 @@ export default function Landing() {
   return (
     <>
       <TopNavbar />
-      <Header/>
-      <Services/>
-      <Projects/>
+      <Header id="home"/>
+      <Services id="services"/>
+      <Projects id="demo"/>
       <Footer />
     </>
   );
